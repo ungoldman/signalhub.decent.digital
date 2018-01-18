@@ -1,0 +1,27 @@
+{
+  "name": "signalhub.decent.digital",
+  "description": "Signalhub server for Hypermodules projects",
+  "version": "1.0.0",
+  "author": "Nate Goldman <ungoldman@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ungoldman/signalhub.decent.digital/issues"
+  },
+  "dependencies": {
+    "signalhub": "^4.9.0"
+  },
+  "homepage": "https://github.com/ungoldman/signalhub.decent.digital",
+  "keywords": [
+    "signalhub",
+    "webrtc"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ungoldman/signalhub.decent.digital.git"
+  },
+  "scripts": {
+    "start": "signalhub listen"
+  }
+}
